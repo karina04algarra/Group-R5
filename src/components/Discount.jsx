@@ -3,7 +3,7 @@ import React,{Component} from 'react'
 import {Link} from '@reach/router'
 
 
-class Discount extends Component{
+class Discount extends Component{ 
 
   render(){
     return(
