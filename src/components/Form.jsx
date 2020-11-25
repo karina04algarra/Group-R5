@@ -67,6 +67,10 @@ const Form = () => {
                 onClick={(e) => handleClick(e)}
               >
                 Calcular descuento
+                <img
+                  src="https://i.postimg.cc/wBXXdR4k/arrow-right.png"
+                  alt="arrow"
+                />
               </button>
             )}
             {state.gift && <h1>Tu Soat cuesta $500.000.000</h1>}
