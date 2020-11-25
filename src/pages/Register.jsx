@@ -8,8 +8,8 @@ const Register = () =>{
   return(
     <div>
       <Header/>
-      <div class="general_container">
-        <div class="general__container-back">
+      <div className="general_container">
+        <div className="general__container-back">
          <ProgressBar/>
          <Form/>
         </div>

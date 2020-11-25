@@ -60,7 +60,7 @@ const Form =()=>{
           <input
             className="input"
             type="tel"
-            placeholder="123456789"
+            placeholder="3214456511"
             id="phone"
           />
           <h3>La veracidad de tus datos impacta tu descuento.</h3>
