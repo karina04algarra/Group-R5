@@ -59,7 +59,13 @@ const Form = () => {
           />
           <h3>La veracidad de tus datos impacta tu descuento.</h3>
           <div className="container_button">
-            <img src="../assets/static/gift-icon.svg" alt="Icono" />
+            <div className="container_button-img">
+              <img
+                src="https://i.postimg.cc/c1VK1Lqg/gift-icon.png"
+                alt="Icono"
+              />
+            </div>
+
             {!state.gift && (
               <button
                 className="button"
@@ -70,6 +76,7 @@ const Form = () => {
                 <img
                   src="https://i.postimg.cc/wBXXdR4k/arrow-right.png"
                   alt="arrow"
+                  className="arrowRight"
                 />
               </button>
             )}
