@@ -1,13 +1,14 @@
 * {
   z-index: 1;
-  color: white;
 }
 .general__container {
-  height: 135vh;
+  /* height: 135vh; */
+  color: white;
+  display: flex;
+  justify-content: space-between;
 }
 
 h1 {
-  font-size: 45px;
   margin-bottom: 30px;
 }
 

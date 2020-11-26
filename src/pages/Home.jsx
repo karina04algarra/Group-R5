@@ -1,6 +1,4 @@
 import React from "react";
-
-import Discount from "../components/Discount";
 import Information from "../components/Information";
 import Header from "../components/Header";
 import "../assets/styles/pages/Home.css";
@@ -13,7 +11,6 @@ const Home = () => (
     <div class="general_container">
       <div class="general__container-back">
         <Information />
-        <Discount />
         <Footer />
       </div>
     </div>

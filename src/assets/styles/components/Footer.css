@@ -1,0 +1,14 @@
+.footer {
+  background-color: white;
+  position: relative;
+}
+
+.items {
+  width: 300px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.items img {
+  width: 50px;
+}
