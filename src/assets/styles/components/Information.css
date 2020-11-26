@@ -2,6 +2,9 @@
   z-index: 1;
   color: white;
 }
+.general__container {
+  height: 135vh;
+}
 
 h1 {
   font-size: 45px;

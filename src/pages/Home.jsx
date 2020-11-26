@@ -5,6 +5,7 @@ import Information from "../components/Information";
 import Header from "../components/Header";
 import "../assets/styles/pages/Home.css";
 import "../assets/styles/components/Background.css";
+import Footer from "../components/Footer";
 
 const Home = () => (
   <>
@@ -12,6 +13,8 @@ const Home = () => (
     <div class="general_container">
       <div class="general__container-back">
         <Information />
+        <Discount />
+        <Footer />
       </div>
     </div>
   </>
