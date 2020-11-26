@@ -1,0 +1,13 @@
+* {
+  z-index: 1;
+  color: white;
+}
+
+h1 {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+p span {
+  font-size: 20px;
+}
