@@ -1,15 +1,11 @@
 import React from "react";
 
-import Discount from "../components/Discount";
-import Information from "../components/Information";
-import Header from "../components/Header";
+import Background from "../components/Background";
 
 const Home = () => {
   return (
     <div>
-      <Header />
-      <Information />
-      <Discount />
+      <Background />
     </div>
   );
 };
