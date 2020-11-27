@@ -1,0 +1,30 @@
+* {
+  z-index: 1;
+}
+.general__container {
+  margin: 0 10%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.general__container-left {
+  margin-bottom: 40px;
+}
+
+.general__container-left h1 {
+  margin-bottom: 30px;
+  font-size: 3rem;
+}
+
+.general__container-left h2 {
+  margin: 20px 0;
+}
+
+.general__container-left ol li {
+  margin: 15px 0;
+}
+
+p span {
+  font-size: 20px;
+}

@@ -1,42 +1,36 @@
-import { useEffect, useState } from "react"
-import React from 'react'
+import { useEffect, useState } from "react";
+import "../assets/styles/components/Form.css";
+import React from "react";
 
-
-import '../assets/styles/components/Form.css'
-
-const Form =()=>{
-
-  const [state,setState]=useState({
-    form:{ 
-      email:'',
-      phone:''
+const Form = () => {
+  const [state, setState] = useState({
+    form: {
+      email: "",
+      phone: "",
     },
     gift: false,
     loading: null,
-    error: null
-  })
+    error: null,
+  });
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(e);
+  };
 
-  const handleSubmit=(e)=>{
-    e.preventDefault()
-    console.log(e)
-  }
+  const handleClick = (e) => {
+    e.preventDefault();
+    console.log("form success");
+    fipflop();
+  };
 
-  const handleClick = (e)=>{
-    e.preventDefault()
-    console.log('form success')
-    fipflop()
-  }
-
-  const fipflop= ()=>{
-    if(!state.gift){
-      setState({gift:true})
+  const fipflop = () => {
+    if (!state.gift) {
+      setState({ gift: true });
     }
-      
-    console.log(state.gift)
-  }
 
-
+    console.log(state.gift);
+  };
 
   return (
     <section className="register">
@@ -60,12 +54,18 @@ const Form =()=>{
           <input
             className="input"
             type="tel"
-            placeholder="3214456511"
+            placeholder="123456789"
             id="phone"
           />
           <h3>La veracidad de tus datos impacta tu descuento.</h3>
           <div className="container_button">
-            <img src="../assets/static/gift-icon.svg" alt="Icono" />
+            <div className="container_button-img">
+              <img
+                src="https://i.postimg.cc/c1VK1Lqg/gift-icon.png"
+                alt="Icono"
+              />
+            </div>
+
             {!state.gift && (
               <button
                 className="button"
@@ -73,7 +73,11 @@ const Form =()=>{
                 onClick={(e) => handleClick(e)}
               >
                 Calcular descuento
-                
+                <img
+                  src="https://i.postimg.cc/wBXXdR4k/arrow-right.png"
+                  alt="arrow"
+                  className="arrowRight"
+                />
               </button>
             )}
             {state.gift && <h1>Tu Soat cuesta $500.000.000</h1>}
@@ -82,6 +86,6 @@ const Form =()=>{
       </section>
     </section>
   );
-}
+};
 
-export default Form
+export default Form;

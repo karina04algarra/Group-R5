@@ -59,7 +59,6 @@ const Discount =()=>{
       },timeS)
       }
     },timeF)
-    console.log('end')
   },[])
 let view = state.state === 0
 let viewS = state.state === 1

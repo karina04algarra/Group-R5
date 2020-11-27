@@ -3,7 +3,11 @@ import ReactDOM from 'react-dom'
 
 import App from './routes/App'
 
-ReactDOM.render(<App/>, document.getElementById('app'))
+const app =document.getElementById('app')
+
+
+ReactDOM.render(<App/>, app);
+
 
 
 

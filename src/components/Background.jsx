@@ -1,19 +1,19 @@
 import React from "react";
-import Information from "../components/Information";
 import Header from "../components/Header";
+import ProgressBar from "../components/ProgressBar";
+import Form from "../components/Form";
 import "../assets/styles/components/Background.css";
-import Footer from "../components/Footer";
 
-const Home = () => (
+const Background = () => (
   <>
     <Header />
     <div class="general_container">
       <div class="general__container-back">
-        <Information />
-        <Footer />
+        <ProgressBar />
+        <Form />
       </div>
     </div>
   </>
 );
 
-export default Home;
+export default Background;
