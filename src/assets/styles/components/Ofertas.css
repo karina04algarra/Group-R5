@@ -1,0 +1,73 @@
+.ofertas {
+    width: 18%;
+    height: 662px;
+    /* margin-left: 50px; */
+    margin-right: 190px;
+    margin-top:50px;
+    float: right;
+    background: #1FCB91;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+     /* padding: 30px 60px 50px;  */
+     padding-left:20px;
+
+      position: relative;
+  }
+  
+  .ofertas-p {
+    font-size: 18px;
+    text-align: center;
+    /* margin-bottom: 0px; */
+    padding-bottom: 0;
+  }
+  
+  
+  .img-ofertas {
+    width: 50px;
+   margin-left: auto;
+   margin-right:auto;
+   display: block;
+  }
+  .s-celular {
+    height: 124px;
+    width: 133px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-bottom:10px;
+  }
+  
+  .etiqueta-p {
+    color: #34A07B;
+    text-align: center;
+    font-size: 12px;
+  }
+  .Button-agregar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+.Button-agregar p{
+    color: red;
+    font-size: 13px;
+}
+.Button-agregar button{
+  padding: 7px;
+  color:white;
+  width:65px;
+  font-size:12px;
+  background-color: #FF4A04;
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-bottom:15px;
+  border:none;
+}

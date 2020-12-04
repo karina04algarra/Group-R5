@@ -1,0 +1,232 @@
+body{
+    background: linear-gradient(#42CE9F,  #5E12AE);
+    font-family: 'Montserrat', sans-serif;
+
+ }
+ .carousel{
+   width: 400px;
+  padding-left: 33px;
+  padding-right:55px;
+  position: relative;
+  border-radius: 10px;
+  background-color:  white;
+  padding-bottom: 0px;
+  margin-right: 550px;
+  padding-top: 0px;
+  margin-left: 54px;
+  margin-bottom: 81px;
+
+}
+.carousel_header{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+ }
+ .tarjeta{
+    width:36px;
+    height: 37px;
+ }
+ .Efecty{
+     width:36px;
+    height: 37px;
+ }
+.carousel-item__img-grap {
+display: flex;
+justify-content:center;
+object-fit: cover;
+/* margin-top: px; */
+
+
+}
+.carousel-item__img-grap img{
+ width: 34px;
+ height:14px;
+ 
+}
+ .carousel_header img {
+  margin-right:30px;
+}
+.carousel-item__img{
+ object-fit: cover;
+ display:block;
+ 
+ margin-left: auto;
+ margin-right:auto;
+ margin-top: 10px;
+ width: 90px;
+
+}
+ .container_data{
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    width: 550px;
+    height: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:10px;
+ }
+ .carousel__container-Elige{
+    color:#42CE9F;
+    font-size: 18px;
+    font-weight: bold;
+    display:flex;
+    text-align:center;
+    /* padding-top: 8px; */
+    margin-bottom:30px;
+ }
+ .carousel__container{
+    /* wrap siginifica envolver y aqui le estamos diciendo no lo la envuelva*/
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;   
+    width:442px;
+    
+ }
+
+    .carousel-item{
+    width: 150px;
+    height:70px;
+    border-radius: 9px;
+    /* border: 2px solid #ffffff; */
+    display: inline-block; 
+    margin-right: 8px;
+    cursor: pointer;
+    /* transition: 450ms all;
+    transform-origin: center left;  */
+       /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); */
+    box-shadow: 5px 3px 3px #E8E8E8;
+    position: relative;
+    background-color: white;
+ }
+    .carousel-item-title{
+    margin-bottom: 8px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #838584;
+ }
+   .carousel-item-title-pse{
+    margin-bottom: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #838584;
+ }
+ /* /* .carousel-item:hover  ~ .carousel-item {
+    transform: translate3d(100px 0, 0);
+    /* con esto cuando hagamos hover todos nuestros elementos se van a desplazar a la derecha */
+ 
+ /* .carousel__container:hover  .carousel-item {
+ box-shadow: 5px 3px 3px #FF4A04;
+ } */
+ .carousel__container:hover   .carousel-item:hover{
+ /* box-shadow: 5px 3px 3px #FF4A04; */
+ border: solid #FF4A04;
+ opacity: 1; 
+ }
+ .carousel-item-title {
+    margin-bottom: 6px;
+    font-weight: bold;
+    text-align: center;
+    color: #838584;
+ }
+ .carousel-item__pse{
+    object-fit: cover;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 30px;
+ }
+ .carousel-item__efecty{
+    object-fit: cover;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 60px;
+ }
+ .carousel-item__cred{
+    object-fit: cover;
+    display:block;
+    width: 60px;
+ }
+ .carousel-item__visa{
+    /* object-fit: cover;
+    display:block; */
+    width: 60px;
+ }
+ 
+
+ .carousel-item__details--title{
+    margin-top:5px;
+    position: absolute;
+    top:51px;
+    padding-left:13px;
+    font-size: 8px;
+    text-align: center;
+    color: #838584;
+ }
+
+ .container_fechas{
+    display: flex;
+    justify-content: space-between;
+    font-size:11px;
+    border-bottom: 3px solid #E4E4E4;
+    padding-left: 20px;
+    padding-right: 30px;
+    /* padding-top: 10px; */
+    color: #838584;
+ }
+ .container_fechas-inicio{
+    /* border-bottom: 3px solid #E4E4E4; */
+    /* height:20px; */
+ }
+
+ .valores{
+    display: block;
+    text-align: left;
+    border-radius: 15px;
+    background-color:  #F2F2F2;
+    padding: 8px 37px 0px 27px;;
+    width:85%;
+    height:110px;
+    margin:10px;
+ }
+ .valores p{
+    margin-bottom:2px;
+ }
+
+
+
+ .container_valores{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 3px dotted #E4E4E4;
+    height: 20px;
+    font-size: 12px;
+    color: #838584;
+
+
+ }
+
+.Button{
+  display:flex;
+  justify-content: flex-end;
+}
+.Button-pago{
+  padding: 7px;
+  color:white;
+  width:136px;
+  font-size:14px;
+  background-color: #FF4A04;
+  border-radius: 10px;
+  margin-bottom:15px;
+  border:none;  
+}
+button:hover{
+  background-color: #06ff06;
+}
+
+
