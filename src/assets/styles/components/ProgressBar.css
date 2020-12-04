@@ -1,0 +1,19 @@
+.ProgressBar {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 30px 0;
+  color: white;
+  font-weight: bold;
+}
+
+.ProgressBar hr {
+  -webkit-transform: rotate(90deg);
+  border: 2px solid #5e12ae;
+  border-radius: 10px;
+}
+
+.ProgressBar img {
+  width: 50px;
+}

@@ -1,0 +1,47 @@
+.footer {
+  background-color: white;
+  position: relative;
+}
+
+.footer__container {
+  max-width: 1070px;
+  width: 100%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.items {
+  width: 100%;
+  max-width: 300px;
+  margin: 15px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items img {
+  width: 50px;
+}
+
+.userData {
+  padding: 1rem 0px;
+  margin: 0;
+}
+
+.userData p span {
+  font-size: 15px;
+  color: rgb(253, 71, 0);
+}
+
+.userData p {
+  color: rgb(155, 155, 155);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}

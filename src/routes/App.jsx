@@ -25,3 +25,18 @@ const App = () => (
 );
 
 export default App;
+=======
+import Register from '../pages/Register'
+import Home from '../pages/Home'
+
+
+
+const App = () => (
+  <Router>
+        <Home path="/"/>
+        <Register path="/register"/>
+  </Router>
+ )
+
+
+export default Appster

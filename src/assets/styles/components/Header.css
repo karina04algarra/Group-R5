@@ -1,0 +1,14 @@
+.header {
+  position: relative;
+  background-color: white;
+  z-index: 1;
+  padding: 9.5px 40px;
+  display: grid;
+  grid-template-columns: 75px 80px;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.header img {
+  width: 78px;
+}
