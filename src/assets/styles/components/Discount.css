@@ -1,6 +1,5 @@
 .discount-container {
   background-color: white;
-  width: 70%;
   border-radius: 12px;
   color: #5e12ae;
   text-align: center;
@@ -53,7 +52,6 @@
 
 .carPlate {
   background-color: white;
-  width: 60.5%;
   border-radius: 12px;
   color: #778899;
   padding: 40px 20px 30px 20px;
