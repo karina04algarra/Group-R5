@@ -80,7 +80,7 @@ const Discount = () => {
             <img
               src="https://i.postimg.cc/wBXXdR4k/arrow-right.png"
               alt="arrow"
-              className="arrowRight"
+              className="arrow__Right"
             />
           </Link>
         </div>

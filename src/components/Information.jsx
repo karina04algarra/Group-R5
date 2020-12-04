@@ -1,6 +1,7 @@
 import React from "react";
 import ItemsList from "./ItemsList";
 import Discount from "./Discount";
+import Opinions from "./Opinions";
 import "../assets/styles/components/Information.css";
 
 const Information = () => {
@@ -21,6 +22,9 @@ const Information = () => {
           <div className="list-container">
             <h2>Beneficios</h2>
             <ItemsList />
+            <div className="Opinions-container">
+              <Opinions />
+            </div>
           </div>
         </div>
         <div className="general__container-right">

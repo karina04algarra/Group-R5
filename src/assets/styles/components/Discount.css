@@ -10,7 +10,7 @@
   color: #42ce9f;
 }
 
-.arrowRight {
+.arrow__Right {
   width: 25px;
   position: relative;
   z-index: 1;
@@ -62,4 +62,19 @@
 .carPlate p {
   margin-bottom: 20px;
   font-weight: bold;
+}
+
+.carPlate input {
+  background-color: #f1efef;
+  border-radius: 5px;
+  border: white;
+  color: gray;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  height: 50px;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 0px 20px;
+  width: 85%;
 }

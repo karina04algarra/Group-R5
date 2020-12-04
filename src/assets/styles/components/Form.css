@@ -22,9 +22,12 @@
 .register__container-form p {
   color: gray;
   padding: 10px 0;
+  text-align: left;
+  position: relative;
+  right: 40px;
 }
 
-input {
+.register__container-form input {
   background-color: #f1efef;
   border-radius: 5px;
   border: white;
@@ -36,7 +39,9 @@ input {
   margin-bottom: 20px;
   outline: none;
   padding: 0px 20px;
-  width: 85%;
+  width: 112%;
+  position: relative;
+  right: 40px;
 }
 
 .register__container-form h3 {
@@ -46,43 +51,45 @@ input {
   padding: 15px 0;
 }
 
-.container_button {
+.container__button {
   position: relative;
+  width: 150px;
 }
 
-.container_button-img img {
+.container__button-img img {
   width: 100px;
   position: absolute;
-  top: -26px;
+  top: -27px;
+  right: 80px;
   cursor: pointer;
 }
 
-.arrowRight {
-  width: 25px;
-  position: relative;
-  z-index: 1;
-  right: 30px;
-  bottom: 2px;
-  animation: arrow 1.5s ease-in-out infinite;
-}
-
-.container_button a:hover .arrowRight {
+.container__button a:hover .arrowRight {
   animation: arrow 1.5s ease-out infinite;
 }
 
-.button {
+.container__button .button {
   background-color: #ff4a04;
-  padding: 20px 40px;
+  padding: 25px 0 10px 80px;
   color: white;
   font-weight: bold;
   display: flex;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 15px;
-  margin-left: 24%;
+  font-size: 13px;
   margin-top: 30px;
   outline: none;
+  width: 270px;
+}
+
+.arrowRight {
+  width: 30px;
+  position: relative;
+  bottom: 5px;
+  right: 45px;
+  z-index: 1;
+  animation: arrow 1.5s ease-in-out infinite;
 }
 
 @keyframes arrow {

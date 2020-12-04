@@ -58,8 +58,8 @@ const Form = () => {
             id="phone"
           />
           <h3>La veracidad de tus datos impacta tu descuento.</h3>
-          <div className="container_button">
-            <div className="container_button-img">
+          <div className="container__button">
+            <div className="container__button-img">
               <img
                 src="https://i.postimg.cc/c1VK1Lqg/gift-icon.png"
                 alt="Icono"
