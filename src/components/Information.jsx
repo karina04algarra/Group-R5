@@ -60,8 +60,10 @@ const Information = () => {
           <div className="discounts">
             <Discount />
             <p>
-              Al continuar aceptas nuestros Términos y Condiciones & Política de
-              Privacidad para el tratamiento de tus datos
+              Al continuar aceptas nuestros <br />
+              <span>Términos y Condiciones </span>&
+              <span> Política de Privacidad </span>
+              para el tratamiento de tus datos.
             </p>
           </div>
         </div>

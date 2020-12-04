@@ -47,3 +47,14 @@ p span {
   width: 500px;
   margin-right: 60px;
 }
+
+.general__container-right {
+  align-self: center;
+}
+
+.discounts {
+  font-size: 13px;
+}
+.discounts p span {
+  font-size: 15px;
+}

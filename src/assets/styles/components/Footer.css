@@ -5,7 +5,7 @@
 
 .footer__container {
   max-width: 1070px;
-  width: 100%;
+  width: 150%;
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;

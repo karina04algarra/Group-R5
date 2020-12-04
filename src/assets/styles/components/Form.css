@@ -1,3 +1,7 @@
+.register {
+  display: flex;
+  justify-content: center;
+}
 .register__container {
   position: relative;
   background-color: white;
