@@ -2,7 +2,7 @@
   z-index: 1;
 }
 .general__container {
-  /* height: 135vh; */
+  padding: 30px 0 0 0;
   margin: 0 10%;
   color: white;
   display: flex;
@@ -24,8 +24,26 @@
 
 .general__container-left ol li {
   margin: 15px 0;
+  list-style: none;
+}
+
+.general__container-left ol img {
+  width: 50px;
+}
+
+.general__container-left ol span img {
+  width: 30px;
+}
+
+.general__container-left ol li img {
+  width: 50px;
 }
 
 p span {
   font-size: 20px;
+}
+
+.list-container {
+  width: 500px;
+  margin-right: 60px;
 }

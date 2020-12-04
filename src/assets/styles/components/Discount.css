@@ -1,0 +1,66 @@
+.discount-container {
+  background-color: white;
+  width: 70%;
+  border-radius: 12px;
+  color: #5e12ae;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.discount-container h2 {
+  color: #42ce9f;
+}
+
+.arrowRight {
+  width: 25px;
+  position: relative;
+  z-index: 1;
+  right: 30px;
+  top: 8px;
+  animation: arrow 1.5s ease-in-out infinite;
+}
+
+.link_button a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.link_button {
+  background-color: #ff4a04;
+  padding: 7px 40px 20px 40px;
+  display: flex;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 68%;
+}
+
+@keyframes arrow {
+  0% {
+    transform: translate(50px, 0px);
+  }
+
+  50% {
+    transform: translate(60px, 0px);
+  }
+
+  100% {
+    transform: translate(50px, 0px);
+  }
+}
+
+.carPlate {
+  background-color: white;
+  width: 60.5%;
+  border-radius: 12px;
+  color: #778899;
+  padding: 40px 20px 30px 20px;
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.carPlate p {
+  margin-bottom: 20px;
+}
