@@ -105,3 +105,39 @@
     transform: translate(50px, 0px);
   }
 }
+
+.valueDiscount_section img {
+  width: 190%;
+  border-radius: 12px;
+  box-shadow: 0 0 5px 0px #888888;
+  height: auto;
+  position: relative;
+  right: 20px;
+  z-index: 1;
+}
+
+.valueDiscount_section-text {
+  z-index: 2;
+  position: absolute;
+  width: 300px;
+  left: 10%;
+  top: 15%;
+}
+
+.valueDiscount_section-text p {
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.valueDiscount_section-text h3 {
+  color: #ff4a04;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.valueDiscount_section-text p span {
+  color: rebeccapurple;
+  text-transform: none;
+  font-size: 14px;
+}
