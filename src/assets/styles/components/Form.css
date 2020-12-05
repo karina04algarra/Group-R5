@@ -2,6 +2,13 @@
   display: flex;
   justify-content: center;
 }
+
+form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
 .register__container {
   position: relative;
   background-color: white;
@@ -128,12 +135,16 @@
   color: black;
   text-align: center;
   text-transform: uppercase;
+  padding: 0;
 }
 
 .valueDiscount_section-text h3 {
   color: #ff4a04;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 24px;
+  padding: 0;
+  text-align: center;
+  margin-right: 25%;
 }
 
 .valueDiscount_section-text p span {
