@@ -1,11 +1,11 @@
 import React from "react";
 
-import Background from "../components/Background";
+import Form from "../components/Form";
 
 const Home = () => {
   return (
     <div>
-      <Background />
+      <Form />
     </div>
   );
 };

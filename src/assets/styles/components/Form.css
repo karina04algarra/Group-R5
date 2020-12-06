@@ -1,3 +1,42 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.total_container {
+  margin: 0;
+  min-height: 100%;
+  background: url(https://i.postimg.cc/8zd5chQF/car-image.jpg) no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.total_container::before {
+  content: "";
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  min-height: 149%;
+
+  background: linear-gradient(
+    90deg,
+    rgba(94, 18, 174, 1) 0%,
+    rgba(24, 144, 255, 1) 100%
+  );
+  opacity: 0.7;
+}
+
+.total_container-change::before {
+  min-height: 171%;
+}
+
 .register {
   display: flex;
   justify-content: center;
@@ -17,6 +56,10 @@ form {
   margin-bottom: 70px;
   padding: 50px 60px 40px;
   width: 350px;
+}
+
+.register__container-height {
+  min-height: 630px;
 }
 
 .register__container h2 {
@@ -128,7 +171,7 @@ form {
   position: absolute;
   width: 300px;
   left: 10%;
-  top: 15%;
+  top: 9%;
 }
 
 .valueDiscount_section-text p {
@@ -151,4 +194,58 @@ form {
   color: rebeccapurple;
   text-transform: none;
   font-size: 14px;
+}
+
+.arrow__Right {
+  width: 25px;
+  position: relative;
+  z-index: 1;
+  right: 30px;
+  top: 8px;
+  animation: arrow 1.5s ease-in-out infinite;
+}
+
+.container__button-item a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.container__button-item {
+  background-color: #ff4a04;
+  padding: 7px 40px 20px 40px;
+  display: flex;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 60%;
+  margin: 20px 0 20px 95px;
+}
+
+@keyframes arrow {
+  0% {
+    transform: translate(50px, 0px);
+  }
+
+  50% {
+    transform: translate(60px, 0px);
+  }
+
+  100% {
+    transform: translate(50px, 0px);
+  }
+}
+
+.lastIcons {
+  width: 200%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  right: 22px;
+  top: 10px;
+}
+
+.lastIcons img {
+  width: 50px;
 }
