@@ -1,14 +1,13 @@
-import React from 'react'
+import React from "react";
 
-import Form from '../components/Form'
-import '../assets/styles/main.css'
+import Form from "../components/Form";
 
-const Register = () =>{
-  return(
+const Home = () => {
+  return (
     <div>
-      <Form/>
+      <Form />
     </div>
-  )
-}
+  );
+};
 
-export default Register
+export default Home;

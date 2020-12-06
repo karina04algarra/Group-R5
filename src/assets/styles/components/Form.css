@@ -1,0 +1,251 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.total_container {
+  margin: 0;
+  min-height: 100%;
+  background: url(https://i.postimg.cc/8zd5chQF/car-image.jpg) no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.total_container::before {
+  content: "";
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  min-height: 149%;
+
+  background: linear-gradient(
+    90deg,
+    rgba(94, 18, 174, 1) 0%,
+    rgba(24, 144, 255, 1) 100%
+  );
+  opacity: 0.7;
+}
+
+.total_container-change::before {
+  min-height: 171%;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.register__container {
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  min-height: 500px;
+  margin-bottom: 70px;
+  padding: 50px 60px 40px;
+  width: 350px;
+}
+
+.register__container-height {
+  min-height: 630px;
+}
+
+.register__container h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #42ce9f;
+}
+
+.register__container-form p {
+  color: gray;
+  padding: 10px 0;
+  text-align: left;
+  position: relative;
+  right: 40px;
+}
+
+.register__container-form input {
+  background-color: #f1efef;
+  border-radius: 5px;
+  border: white;
+  color: gray;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  height: 50px;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 0px 20px;
+  width: 112%;
+  position: relative;
+  right: 40px;
+}
+
+.register__container-form h3 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+  padding: 15px 0;
+}
+
+.container__button {
+  position: relative;
+  width: 150px;
+}
+
+.container__button-img img {
+  width: 100px;
+  position: absolute;
+  top: -27px;
+  right: 80px;
+  cursor: pointer;
+}
+
+.container__button a:hover .arrowRight {
+  animation: arrow 1.5s ease-out infinite;
+}
+
+.container__button .button {
+  background-color: #ff4a04;
+  padding: 25px 0 10px 80px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  margin-top: 30px;
+  outline: none;
+  width: 270px;
+}
+
+.arrowRight {
+  width: 30px;
+  position: relative;
+  bottom: 5px;
+  right: 45px;
+  z-index: 1;
+  animation: arrow 1.5s ease-in-out infinite;
+}
+
+@keyframes arrow {
+  0% {
+    transform: translate(50px, 0px);
+  }
+
+  50% {
+    transform: translate(60px, 0px);
+  }
+
+  100% {
+    transform: translate(50px, 0px);
+  }
+}
+
+.valueDiscount_section img {
+  width: 190%;
+  border-radius: 12px;
+  box-shadow: 0 0 5px 0px #888888;
+  height: auto;
+  position: relative;
+  right: 20px;
+  z-index: 1;
+}
+
+.valueDiscount_section-text {
+  z-index: 2;
+  position: absolute;
+  width: 300px;
+  left: 10%;
+  top: 9%;
+}
+
+.valueDiscount_section-text p {
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.valueDiscount_section-text h3 {
+  color: #ff4a04;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 0;
+  text-align: center;
+  margin-right: 25%;
+}
+
+.valueDiscount_section-text p span {
+  color: rebeccapurple;
+  text-transform: none;
+  font-size: 14px;
+}
+
+.arrow__Right {
+  width: 25px;
+  position: relative;
+  z-index: 1;
+  right: 30px;
+  top: 8px;
+  animation: arrow 1.5s ease-in-out infinite;
+}
+
+.container__button-item a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.container__button-item {
+  background-color: #ff4a04;
+  padding: 7px 40px 20px 40px;
+  display: flex;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 60%;
+  margin: 20px 0 20px 95px;
+}
+
+@keyframes arrow {
+  0% {
+    transform: translate(50px, 0px);
+  }
+
+  50% {
+    transform: translate(60px, 0px);
+  }
+
+  100% {
+    transform: translate(50px, 0px);
+  }
+}
+
+.lastIcons {
+  width: 200%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  right: 22px;
+  top: 10px;
+}
+
+.lastIcons img {
+  width: 50px;
+}

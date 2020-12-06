@@ -1,0 +1,43 @@
+.item1,
+.item2,
+.item3,
+.item4 {
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 2rem 0 0 0;
+}
+
+.item1 img,
+.item2 img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.item3 img,
+.item4 img {
+  width: 30px;
+  margin-left: 22px;
+  margin-right: 10px;
+}
+
+.item-text {
+  width: 100%;
+  min-width: 30px;
+  min-height: 30px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.item-text p span {
+  font-size: 12px;
+}
+
+.item-text p span a {
+  color: white;
+  font-weight: bold;
+}

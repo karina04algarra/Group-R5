@@ -1,16 +1,16 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
-  entry: './src/index.js',
+  entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
-    publicPath: '/',
+    path: path.resolve(__dirname, "dist"),
+    filename: "bundle.js",
+    publicPath: "/",
   },
   resolve: {
-    extensions: [ '.js', '.jsx'],
+    extensions: [".js", ".jsx"],
   },
   module: {
     rules: [
@@ -18,14 +18,12 @@ module.exports = {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader',
+          loader: "babel-loader",
         },
       },
       {
         test: /\.html$/,
-        use: [
-        'html-loader'
-        ]
+        use: ["html-loader"],
       },
       {
         test: /\.css$/,
@@ -33,24 +31,24 @@ module.exports = {
           {
             loader: MiniCssExtractPlugin.loader,
           },
-          'css-loader',
+          "css-loader",
         ],
       },
       {
         test: /\.(png|gif|jpg)$/,
         use: [
           {
-            loader: 'file-loader',
+            loader: "file-loader",
             options: {
-              name: 'assets/[hash].[ext]',
+              name: "assets/[hash].[ext]",
             },
           },
         ],
       },
     ],
   },
-   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
+  devServer: {
+    contentBase: path.join(__dirname, "dist"),
     compress: true,
     port: 9000,
     historyApiFallback: true,
@@ -58,11 +56,11 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: './public/index.html',
-      filename: './index.html'
+      template: "./public/index.html",
+      filename: "./index.html",
     }),
     new MiniCssExtractPlugin({
-      template: 'assets/[name].css',
+      template: "assets/[name].css",
     }),
   ],
 };
