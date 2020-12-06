@@ -2,10 +2,10 @@
   z-index: 1;
 }
 .general__container {
+  padding: 30px 0 0 0;
   margin: 0 10%;
   color: white;
   display: flex;
-  justify-content: space-between;
 }
 
 .general__container-left {
@@ -21,10 +21,31 @@
   margin: 20px 0;
 }
 
-.general__container-left ol li {
-  margin: 15px 0;
-}
-
 p span {
   font-size: 20px;
+}
+
+.list-container {
+  width: 500px;
+  margin-right: 60px;
+}
+
+.general__container-right {
+  align-self: center;
+  width: 30%;
+  margin-left: 10%;
+}
+
+.discounts {
+  font-size: 13px;
+}
+.discounts p span {
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: underline white;
+  cursor: pointer;
+}
+
+.information p {
+  text-align: center;
 }

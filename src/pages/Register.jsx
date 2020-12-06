@@ -2,6 +2,7 @@ import React from 'react'
 import ProgressBar from '../components/ProgressBar'
 import Header from '../components/Header'
 import Form from '../components/Form'
+import Footer from '../components/Footer'
 import '../assets/styles/pages/Register.css'
 
 const Register = () =>{
@@ -11,7 +12,9 @@ const Register = () =>{
       <div className="general_container">
         <div className="general__container-back">
          <ProgressBar/>
-         <Form/>
+         <Form />
+         
+         
         </div>
       </div>
     </div>

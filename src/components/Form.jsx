@@ -58,29 +58,47 @@ const Form = () => {
             id="phone"
           />
           <h3>La veracidad de tus datos impacta tu descuento.</h3>
-          <div className="container_button">
-            <div className="container_button-img">
-              <img
-                src="https://i.postimg.cc/c1VK1Lqg/gift-icon.png"
-                alt="Icono"
-              />
-            </div>
-
+          <div className="container__button">
             {!state.gift && (
-              <button
-                className="button"
-                type="button"
-                onClick={(e) => handleClick(e)}
-              >
-                Calcular descuento
-                <img
-                  src="https://i.postimg.cc/wBXXdR4k/arrow-right.png"
-                  alt="arrow"
-                  className="arrowRight"
-                />
-              </button>
+              <>
+                <div className="container__button-img">
+                  <img
+                    src="https://i.postimg.cc/c1VK1Lqg/gift-icon.png"
+                    alt="Icono"
+                  />
+                </div>
+                <button
+                  className="button"
+                  type="button"
+                  onClick={(e) => handleClick(e)}
+                >
+                  Calcular descuento
+                  <img
+                    src="https://i.postimg.cc/wBXXdR4k/arrow-right.png"
+                    alt="arrow"
+                    className="arrowRight"
+                  />
+                </button>
+              </>
             )}
-            {state.gift && <h1>Tu Soat cuesta $500.000.000</h1>}
+            {state.gift && (
+              <div className="valueDiscount_Container">
+                <div className="valueDiscount_section">
+                  <img
+                    src="https://i.postimg.cc/LXHs9by0/background-Mesa-de-trabajo-1.png"
+                    alt=""
+                  />
+                  <div className="valueDiscount_section-text">
+                    <p>Precio con descuento</p>
+                    <h3>$500.000</h3>
+                    <p>
+                      <span>Precio establecido por ley $600.000*</span>
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
         </form>
       </section>
