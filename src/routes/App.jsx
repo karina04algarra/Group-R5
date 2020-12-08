@@ -6,13 +6,14 @@ import Home from '../pages/Home'
 
 
 
-const App = () => (
+const App = () => {
+return(
   <Router>
         <Home path="/"/>
-        <Register path="/register"/>
+        <Register  path="/register"/>
   </Router>
- )
-
+)
+}
 
 export default App
 
