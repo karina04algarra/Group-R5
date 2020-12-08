@@ -1,0 +1,22 @@
+{
+  "placas": {
+    "305": {
+      "placa": "CVY000",
+      "vehiculo": "Renault 12"
+    },
+    "306": {
+      "placa": "CZR263",
+      "vehiculo": "Logan"
+    }
+  },
+  "datos personales": {
+    "307": {
+      "correo electronico": "davidlopez06@gmail.com",
+      "celular": "3214409876"
+    },
+    "308": {
+      "correo electronico": "andresm.andres@gmail.com",
+      "celular": "3215660890"
+    }
+  }
+}

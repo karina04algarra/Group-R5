@@ -3,9 +3,10 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
-  margin: 30px 0;
+  margin: 2.8% 0 2.5% 25%;
   color: white;
   font-weight: bold;
+  width: 50%;
 }
 
 .ProgressBar hr {

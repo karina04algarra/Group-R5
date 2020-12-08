@@ -14,7 +14,7 @@ const ItemsList = () => (
             20% de descuento en moda Dafiti.com.co
             <span>
               Válido hasta el 30 de noviembre o agotar existencias. Condiciones
-              aquí.
+              <a href="#"> aquí.</a>
             </span>
           </p>
         </div>
@@ -26,11 +26,11 @@ const ItemsList = () => (
         />
         <div className="item-text">
           <p>
-            Bono de $40.000 para hacer mercado con Cornershop.
+            Bono de $40.000 para hacer mercado con Cornershop. <br />
             <span>
               Solo para clientes que compraron su anterior SOAT con Grupo R5.
               Válido hasta el 30 de noviembre o agotar existencias. Condiciones
-              aquí.
+              <a href="#"> aquí.</a>
             </span>
           </p>
         </div>

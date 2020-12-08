@@ -1,24 +1,13 @@
-import React from 'react'
-import ProgressBar from '../components/ProgressBar'
-import Header from '../components/Header'
-import Form from '../components/Form'
-import Footer from '../components/Footer'
-import '../assets/styles/pages/Register.css'
+import React from "react";
 
-const Register = () =>{
-  return(
+import Form from "../components/Form";
+
+const Home = () => {
+  return (
     <div>
-      <Header/>
-      <div className="general_container">
-        <div className="general__container-back">
-         <ProgressBar/>
-         <Form />
-         
-         
-        </div>
-      </div>
+      <Form />
     </div>
-  )
-}
+  );
+};
 
-export default Register
+export default Home;
