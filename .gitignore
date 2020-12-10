@@ -1,4 +1,6 @@
 # Node template
+#node_modules/
+
 
 # Logs
 logs
@@ -72,5 +74,23 @@ typings/
 .cache/
 yarn-error.log
 
+
 # Build
-dist/
+#dist/
+
+
+# Build
+#dist/
+#.vercel
+
+# Images
+#*.png
+#*.jpg
+#*.jpeg
+#*.gif
+
+
+
+# Documents
+#*.csv
+
