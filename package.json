@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack  --mode production",
     "start": "webpack-dev-server --open --mode development",
-    "homepage": "https://yourusername.github.io/repository-name"
+    "homepage": "https://github.com/karina04algarra/Group-R5"
   },
   "repository": {
     "type": "git",
