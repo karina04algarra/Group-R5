@@ -19,11 +19,7 @@
   "bugs": {
     "url": "https://github.com/karina04algarra/Group-R5"
   },
-<<<<<<< HEAD
   "homepage": "https://github.com/karina04algarra/Group-R5",
-=======
-  "homepage": "https://github.com/karina04algarra/Group-R5#readme",
->>>>>>> a41b57c4988ccf9a79255dd8878ad28134ab920e
   "dependencies": {
     "@reach/router": "^1.3.4",
     "classnames": "^2.2.6",
