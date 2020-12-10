@@ -1,5 +1,5 @@
 {
-  "name": "Retos_de_la_Industria_GrupoR5",
+  "name": "Group-R5",
   "version": "1.0.0",
   "description": "Realizar el Checkout para agregar productos a la compra del SOAT",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alejocantillo95/Retos_de_la_Industria_GrupoR5.git"
+    "url": "git+https://github.com/karina04algarra/Group-R5.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alejocantillo95/Retos_de_la_Industria_GrupoR5/issues"
+    "url": "https://github.com/karina04algarra/Group-R5"
   },
-  "homepage": "https://github.com/alejocantillo95/Retos_de_la_Industria_GrupoR5#readme",
+  "homepage": "https://github.com/karina04algarra/Group-R5#readme",
   "dependencies": {
     "@reach/router": "^1.3.4",
     "classnames": "^2.2.6",
